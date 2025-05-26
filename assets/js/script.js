@@ -80,34 +80,6 @@ $('.menu-scroll a').click(function() {
 
 
 
-let designdSwiper = new Swiper(".design-itself-slider", {
-    slidesPerView: 3,
-    spaceBetween: 12,
-    loop: true,
-    breakpoints: {
-        '1024': {
-            slidesPerView: 3,
-            spaceBetween: 12,
-        },
-        '767': {
-            slidesPerView: 3,
-            spaceBetween: 12,
-        },
-        '570': {
-            slidesPerView: 2,
-            spaceBetween: 12,
-        },
-        '320': {
-            slidesPerView: 2,
-            spaceBetween: 12,
-
-        },
-    },
-
-});
-
-
-
 
 
 let usersSwiper = new Swiper(".reviews-slider", {
